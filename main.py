@@ -1,6 +1,10 @@
 import pygame as pyg
 import setup
 
+
+
+
+
 #initialize pygame
 
 pyg.init()

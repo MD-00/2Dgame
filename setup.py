@@ -1,5 +1,8 @@
 import configparser as cp
 
+configParser = cp.RawConfigParser()
+configFileName = "config.cfg"
+configParser.read(configFileName)
 
-height = 800
-width = 600
+height = int(configParser.get('setup', 'height'))
+width = int(configParser.get('setup', 'width'))

@@ -1,6 +1,11 @@
 import pygame as pyg
+import setup
 
+#initialize pygame
 
-#initial commit
+pyg.init()
 
-print('Dzien dobry :) \n')
+# create screen
+screen = pyg.display.set_mode((800,600))
+while True:
+    pass

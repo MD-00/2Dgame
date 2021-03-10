@@ -2,6 +2,8 @@ import pygame as pyg
 import setup
 
 
+#nastepny cel: dodac player, poruszanie, sprite 
+
 #initialize pygame
 
 pyg.init()

@@ -8,7 +8,9 @@ pyg.init()
 
 # create screen
 screen = pyg.display.set_mode((setup.width, setup.height))
-pyg.display.set_cap("2Dgame")
+pyg.display.set_caption("2Dgame")
+icon = pyg.image.load("IMG/icon.png")
+pyg.display.set_icon(icon)
 
 # game loop
 gameOn = True

@@ -7,3 +7,4 @@ import configparser as cp
 #initial commit
 
 print('Dzien dobry :) \n')
+#dzejkob kommit 

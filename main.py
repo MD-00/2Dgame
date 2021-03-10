@@ -1,10 +1,15 @@
 import pygame as pyg
-import configparser as cp
+import setup
 
 
 
 
-#initial commit
 
-print('Dzien dobry :) \n')
-#dzejkob kommit 
+#initialize pygame
+
+pyg.init()
+
+# create screen
+screen = pyg.display.set_mode((800,600))
+while True:
+    pass

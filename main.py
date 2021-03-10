@@ -18,3 +18,6 @@ while gameOn:
     for event in pyg.event.get():
         if event.type == pyg.QUIT:
             gameOn = False
+    screen.fill((255, 0, 155))
+    pyg.display.update()
+
